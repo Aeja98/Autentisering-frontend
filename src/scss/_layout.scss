@@ -23,14 +23,16 @@
   nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.75rem;
+    gap: clamp(0.35rem, 2vw, 0.75rem);
 
     a {
       color: $nav-text;
       background-color: rgba(255, 250, 204, 0.15);
       border: 2px solid rgba(255, 250, 204, 0.4);
       border-radius: 999px;
-      padding: 0.4rem 0.9rem;
+      padding: clamp(0.25rem, 1.5vw, 0.4rem) clamp(0.55rem, 2.5vw, 0.9rem);
+      font-size: clamp(0.8rem, 3vw, 1rem);
+      white-space: nowrap;
 
       &:hover {
         background-color: $pale-yellow;
