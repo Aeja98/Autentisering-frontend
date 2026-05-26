@@ -1,7 +1,7 @@
 # Tankad Tacos Webbplats
 
 Frontend:
-https://DIN-FRONTEND-URL.onrender.com/
+https://autentisering-frontend.onrender.com
 
 En fristående webbplats skapad för den fiktiva taco trucken Tankad Tacos. Webbplatsen använder Fetch API för att kommunicera med en REST-baserad webbtjänst där användare kan registrera konto, logga in och komma åt skyddad admin-data.
 
