@@ -1,6 +1,6 @@
 import "../scss/main.scss";
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://autentisering-backend.onrender.com";
 
 const token = sessionStorage.getItem("token");
 const username = sessionStorage.getItem("username");
