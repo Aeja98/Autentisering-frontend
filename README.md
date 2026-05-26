@@ -108,9 +108,3 @@ fetch(`${API_URL}/api/admin/dashboard`, {
 | POST | `/api/auth/login` | Loggar in användare och returnerar JWT-token |
 | GET | `/api/admin/dashboard` | Hämtar skyddad admin-data och meny från databasen |
 ```
-
-till den publicerade backend-länken, till exempel:
-
-```js
-const API_URL = "https://DIN-BACKEND-URL.onrender.com";
-```
